@@ -1,8 +1,3 @@
-/*
- * Start Bootstrap - Landing Page (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body,
 html {
@@ -22,7 +17,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -35,7 +30,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../images/develop.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -116,7 +111,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../images/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -167,4 +162,16 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.myportfolio {
+    height: 70px;
+    width: 250px;
+    font-size: 27px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+
+}
+
+.footercolor {
+    background-color: #8DFF33;
 }
