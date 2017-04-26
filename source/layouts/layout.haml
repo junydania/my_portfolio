@@ -9,9 +9,9 @@
     %title Osegbemh Dania's Portfolio
     / Bootstrap Compiled CSS from SCSS
 
+    = stylesheet_link_tag "font-awesome"
     = stylesheet_link_tag "style"
     = stylesheet_link_tag "landing-page"
-    = stylesheet_link_tag "font-awesome/css/font-awesome"
     = javascript_include_tag  "jquery"
 
     -# %link{:href => "stylesheets/style.css", :rel => "stylesheet"}/
@@ -24,23 +24,9 @@
     %script{:src => "./sass/bootstrap/javascripts/bootstrap.js"}
 
   %body
-    / Navigation
-    .navbar.navbar-default.navbar-fixed-top.topnav{:role => "navigation"}
-      .container.topnav
-        / Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.navbar-brand.topnav{:href => "#"} Osegbemoh Dania
-        / Collect the nav links, forms, and other content for toggling
-        #bs-example-navbar-collapse-1.collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right
-            %li
-              %a{:href => "#about"} About Me
-            %li
-              %a{:href => "#services"} Portfolio
-            %li
-              %a{:href => "#contact"} Contact Me
+    =partial 'partials/navigation'
+
+    = yield
+
+    = partial 'partials/skillset'
+    = partial 'partials/footer'
