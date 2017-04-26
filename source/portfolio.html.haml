@@ -1,0 +1,42 @@
+.container
+  / Page Header
+  .row
+    .col-lg-12
+      %h1.page-header
+        My Portfolio
+        %small Software Development Projects
+  / /.row
+  / Projects Row
+  .row
+    = data.projects.projects.each do |project|
+      .col-md-4.portfolio-item
+        %a{:href => "#"}
+          = image_tag project.image
+          -# %img.img-responsive{:alt => "", :src => "#{project.image}"}/
+        %h3
+          %a{:href => "#{project.repository}"}= project.title
+          %a.btn.btn-danger.btn-lg{:href => "#{project.repository}"}
+          %i.fa.fa-git
+          %span.network-name View Project
+  / /.row
+  %hr/
+  / Pagination
+  .row.text-center
+    .col-lg-12
+      %ul.pagination
+        %li
+          %a{:href => "#"} «
+        %li.active
+          %a{:href => "#"} 1
+        %li
+          %a{:href => "#"} 2
+        %li
+          %a{:href => "#"} 3
+        %li
+          %a{:href => "#"} 4
+        %li
+          %a{:href => "#"} 5
+        %li
+          %a{:href => "#"} »
+/ /.row
+%hr/
