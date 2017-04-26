@@ -176,3 +176,7 @@ p.copyright {
 .footercolor {
     background-color: #8DFF33;
 }
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
