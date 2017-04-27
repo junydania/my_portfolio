@@ -8,16 +8,13 @@
   / /.row
   / Projects Row
   .row
-    = data.projects.projects.each do |project|
-      .col-md-4.portfolio-item
-        %a{:href => "#"}
-          = image_tag project.image
-          -# %img.img-responsive{:alt => "", :src => "#{project.image}"}/
+    - data.projects.projects.each do |project|
+      .col-md-4.col-sm-6.col-lg-4.portfolio-item
+        %a{:href => "#{project.repository}"}
+          = image_tag project.image, :class => "img.rounded", :height => "270", :width => "300"
         %h3
-          %a{:href => "#{project.repository}"}= project.title
-          %a.btn.btn-danger.btn-lg{:href => "#{project.repository}"}
-          %i.fa.fa-git
-          %span.network-name View Project
+          %a.port-name{:href => "#{project.repository}"}= project.title
+          %br/
   / /.row
   %hr/
   / Pagination

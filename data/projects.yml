@@ -1,16 +1,16 @@
 projects:
   - title: BMI Calculator
     repository: https://github.com/junydania/bmicalculator
-    image: phone.png
-  - title: Slow Food Restaurant Online
+    image: bmi.png
+  - title: Slow Food Restaurant
     repository: https://github.com/junydania/slow_food_sinatra_april2017
-    image: phone.png
+    image: food.jpg
   - title: Fizz Buzz Game
     repository: https://github.com/junydania/fizz_buzz_js
-    image: phone.png
+    image: game.png
   - title: Library System in Ruby
     repository: https://github.com/junydania/library-challenge
-    image: phone.png
+    image: book.png
   - title: ATM Challenge
     repository: https://github.com/junydania/atmchallenge
-    image: phone.png
+    image: atm.png

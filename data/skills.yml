@@ -1,0 +1,17 @@
+skills:
+  - title: Ruby
+    image: ruby.png
+  - title: Javascript
+    image: html.png
+  - title: Jasmine
+    image: jasmine.png
+  - title: Middleman
+    image: middleman.jpg
+  - title: Postgresql
+    image: postgresql.png
+  - title: GitHub
+    image: github-logo.jpg
+  - title: Sinatra
+    image: sinatra.png
+  - title: rspec
+    image: rspec.png

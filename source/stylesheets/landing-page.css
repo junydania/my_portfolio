@@ -181,3 +181,16 @@ p.copyright {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+.port-button {
+    margin-left: 80px
+}
+
+.port-name {
+    margin-left: 50px
+}
+
+.page-header {
+    margin-bottom: 30px;
+    padding-top: 30px
+}
