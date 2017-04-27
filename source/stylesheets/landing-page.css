@@ -203,3 +203,10 @@ p.copyright {
     margin-bottom: 30px;
     padding-top: 30px
 }
+.myself{
+    padding: 15px 25px;
+    margin-left: 10px;
+    height: inherit;
+    width: 500px;
+    line-height: 150%
+}
