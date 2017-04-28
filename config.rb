@@ -47,8 +47,6 @@ end
 #   end
 # end
 
-activate :dragonfly_thumbnailer
-
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
