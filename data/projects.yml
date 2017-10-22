@@ -14,3 +14,12 @@ projects:
   - title: ATM Challenge
     repository: https://github.com/junydania/atmchallenge
     image: atm.png
+  - title: Taskr (Online Job Marketplace)
+    repository: https://github.com/junydania/taskr
+    image: job.jpg
+  - title: Video Content Catalogue
+    repository: https://github.com/junydania/content-catalogue
+    image: video.jpg
+  - title: Stock Tracking app
+    repository: https://github.com/junydania/Stock-Trader
+    image: stocks.jpg

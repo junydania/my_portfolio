@@ -182,12 +182,28 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-.myportfolio {
-    height: 70px;
-    width: 250px;
-    font-size: 27px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 
+.myportfolio{
+    align-self: center;
+    padding: 20px 100px 18px 100px;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(255, 85, 85);
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.myportfolio:hover{
+    background: #E03A3A;
+}
+
+.myportfolio:active{
+    transform: scale(1.025);
 }
 
 .footercolor {

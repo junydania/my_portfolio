@@ -1,17 +1,41 @@
 skills:
   - title: Ruby
-    image: ruby.png
+    image: rubylogo.png
+  - title: Rails
+    image: rails.jpeg
   - title: Javascript
     image: html.png
   - title: Jasmine
     image: jasmine.png
   - title: Middleman
-    image: middleman.jpg
+    image: middleman.png
   - title: Postgresql
     image: postgresql.png
+  - title: MySQL
+    image: postgresql.png
+  - title: MongoDB
+    image: postgresql.png
   - title: GitHub
-    image: github-logo.jpg
+    image: github-logo.gif
   - title: Sinatra
     image: sinatra.png
   - title: rspec
     image: rspec.png
+  - title: Cucumber
+    image: cucumber.jpeg
+  - title: PHP
+    image: php.png
+  - title: CodeIgniter
+    image: codeigniter.jpg
+  - title: Laravel
+    image: laravel.png
+  - title: AngularJS
+    image: angular.png
+  - title: SemaphoreCI
+    image: semaphore.png
+  - title: AWS
+    image: aws.png
+  - title: NodeJS
+    image: nodejs.png
+  - title: ionic
+    image: ionic.png
