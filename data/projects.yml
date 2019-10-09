@@ -1,21 +1,18 @@
 projects:
-  - title: BMI Calculator
-    repository: https://github.com/junydania/bmicalculator
+  - title: Gym Application
+    repository: https://erp.gofitnessng.com/
     image: bmi.png
-  - title: Slow Food Restaurant
-    repository: https://github.com/junydania/slow_food_sinatra_april2017
-    image: food.jpg
-  - title: Fizz Buzz Game
-    repository: https://github.com/junydania/fizz_buzz_js
+  - title: Vendor RFQ Portal
+    repository: https://elektrint-app.herokuapp.com/users/sign_in
+    image: vendor-rfq.png
+  - title: Corporate Website
+    repository: http://gofitnessng.com/
     image: game.png
-  - title: Library System in Ruby
-    repository: https://github.com/junydania/library-challenge
-    image: book.png
-  - title: ATM Challenge
-    repository: https://github.com/junydania/atmchallenge
-    image: atm.png
+  - title: DevOps Repositories
+    repository: https://github.com/junydania?tab=repositories
+    image: devops.png
   - title: Taskr (Online Job Marketplace)
-    repository: https://github.com/junydania/taskr
+    repository: https://ca-taskr-dev.herokuapp.com/
     image: job.jpg
   - title: Video Content Catalogue
     repository: https://github.com/junydania/content-catalogue

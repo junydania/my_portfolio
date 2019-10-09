@@ -1,41 +1,33 @@
 skills:
-  - title: Ruby
-    image: rubylogo.png
   - title: Rails
     image: rails.jpeg
-  - title: Javascript
-    image: html.png
-  - title: Jasmine
-    image: jasmine.png
-  - title: Middleman
-    image: middleman.png
+  - title: Django
+    image: django.jpeg
+  - title: CI-CD
+    image: ci-cd.png
+  - title: Docker
+    image: docker.png
   - title: Postgresql
     image: postgresql.png
   - title: MySQL
-    image: postgresql.png
+    image: mysql.png
   - title: MongoDB
-    image: postgresql.png
-  - title: GitHub
-    image: github-logo.gif
-  - title: Sinatra
-    image: sinatra.png
-  - title: rspec
-    image: rspec.png
-  - title: Cucumber
-    image: cucumber.jpeg
-  - title: PHP
-    image: php.png
+    image: mongodb.png
+  - title: Kubernetes
+    image: k8s.png
+  - title: Ansible
+    image: ansible.png
+  - title: Prometheus
+    image: prometheus.png
   - title: CodeIgniter
     image: codeigniter.jpg
-  - title: Laravel
-    image: laravel.png
-  - title: AngularJS
-    image: angular.png
-  - title: SemaphoreCI
-    image: semaphore.png
   - title: AWS
     image: aws.png
   - title: NodeJS
     image: nodejs.png
-  - title: ionic
-    image: ionic.png
+  - title: Google Compute
+    image: google-compute.png
+  - title: Terraform
+    image: terraform.png
+  - title: Cloudformation
+    image: cloudformation.png
